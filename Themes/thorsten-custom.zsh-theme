@@ -1,4 +1,4 @@
-PROMPT=$'%{\e[0;34m%}%B┌[%b%{\e[0m%}%{\e[1;32m%}%n%{\e[1;30m%}:%{\e[0m%}%{\e[0;36m%}%~%{\e[0;34m%}%B]%b%{\e[0m%}
+PROMPT=$'%{\e[0;34m%}%B┌[%b%{\e[0m%}%{\e[1;32m%}%n%{\e[1;34m%}:%{\e[0m%}%{\e[0;36m%}%~%{\e[0;34m%}%B]%b%{\e[0m%}
 %{\e[0;34m%}%B└%B[%{\e[1;35m%}$(check_exit_code)%{\e[0;34m%}%B]%{\e[0m%}%b%{\e[0;35m%}$(git_prompt_info)$(svn_prompt_info)$(virtualenv_prompt_info)%{\e[0m%} '
 RPROMPT=$'$FG[024][!%!]%{$reset_color%}'
 
